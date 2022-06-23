@@ -1,0 +1,8 @@
+<h1>This is a component with a template</h1>
+<ng-container
+  *ngFor="let oneItem of results"
+  [ngTemplateOutlet]="templateItem"
+  [ngTemplateOutletContext]="{
+    item: oneItem
+  }"
+></ng-container>

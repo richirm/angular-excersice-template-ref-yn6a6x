@@ -14,14 +14,17 @@ export class ListComponent {
     {
       id: 1,
       name: 'Alan',
+      charge: 'Frontend Arquitect',
     },
     {
       id: 2,
       name: 'Rodrigo',
+      charge: 'Backend Arquitect',
     },
     {
       id: 3,
       name: 'Santiago',
+      charge: 'Cloud Arquitect',
     },
   ];
 }

@@ -1,0 +1,19 @@
+.item {
+  width: 250px;
+}
+
+.item__title {
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #6459b3;
+  text-align: center;
+  padding: 10px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.item__description {
+  padding: 8px;
+  text-align: center;
+  box-shadow: 0 0 6px rgb(0 0 0 / 12%);
+}

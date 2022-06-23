@@ -1,3 +1,4 @@
-h1 {
-  font-family: Lato;
+.lits-item {
+  display: flex;
+  width: 100%;
 }

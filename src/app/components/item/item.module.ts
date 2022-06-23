@@ -5,7 +5,7 @@ import { ItemComponent } from './item.component';
 
 @NgModule({
   imports: [CommonModule],
-  declarations: [ItemComponent]
+  declarations: [ItemComponent],
   exports: [ItemComponent]
 })
 export class ItemModule { }

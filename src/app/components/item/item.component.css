@@ -16,4 +16,11 @@
   padding: 8px;
   text-align: center;
   box-shadow: 0 0 6px rgb(0 0 0 / 12%);
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.item__description small {
+  color: #3e898a;
+  font-weight: bold;
 }

@@ -3,5 +3,5 @@ This is the main component
 <invgate-list [templateItem]="templateItem"></invgate-list>
 
 <ng-template #templateItem let-item="item">
-  <p>ID: {{ item.id }}, Name: {{ item.name }}</p>
+  <invgate-item [item]="item"></invgate-item>
 </ng-template>
